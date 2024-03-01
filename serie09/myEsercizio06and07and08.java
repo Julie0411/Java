@@ -16,9 +16,9 @@ public class myEsercizio06and07and08 {
 
             System.out.println("Saldo attuale: " + contoCliente + " CHF.");
             System.out.println("Desidera prelevare o versare?");
-            String soldi = keyboard.nextLine();
+            String azione = keyboard.nextLine();
 
-            if (soldi.equals("prelevare")) {
+            if (azione.equals("prelevare")) {
                 System.out.println("Inserisca l'importo da prelevare:");
                 double prelievo = keyboard.nextDouble();
                 keyboard.nextLine();
