@@ -16,9 +16,12 @@ public class for_tutorial09 {
         Il terzo settore è l'incrementatore
         Il for è più comodo rispetto al while, questo perché ha un codice 
         ottimizzato e più pulito.
-        */
-        
+         */
         for (int i = 0; i <= 70; i += 7) {
+            System.out.println(i);
+        }
+
+        for (int i = 1000; i >= 0; i--) {
             System.out.println(i);
         }
 
