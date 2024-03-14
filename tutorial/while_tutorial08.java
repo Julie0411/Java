@@ -1,6 +1,6 @@
 package tutorial;
 
-public class loop_tutorial07 {
+public class while_tutorial08 {
 
     public static void main(String[] args) {
 
